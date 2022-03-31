@@ -2,10 +2,6 @@
   src: url(../font/Poppins/Poppins-Regular.ttf);
   font-family: Poppins-Black;
 }
-::placeholder {
-  color: rgb(77, 77, 80);
-  font-size: 10px;
-}
 
 * {
   margin: 0;
@@ -13,14 +9,15 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #04157b, #4958ac);
+  background-image: linear-gradient(120deg, #00a782, #479191);
   color: rgb(255, 251, 0);
-  font-family: Poppins-Black;
+  font-family: "Lobster", cursive;
   min-height: 100vh;
 }
 header {
-  font-size: 2rem;
+  font-size: 3rem;
 }
+
 header,
 form {
   min-height: 20vh;
@@ -42,7 +39,7 @@ form input {
   width: 60%;
 }
 form button {
-  color: #04157b;
+  color: #e06704;
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -50,7 +47,7 @@ form button {
   border-bottom-right-radius: 10px;
 }
 form button:hover {
-  background: #04157b;
+  background: #e06704;
   color: rgb(245, 241, 8);
 }
 
@@ -97,7 +94,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: rgb(73, 204, 73);
+  background: #e06704;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
@@ -105,7 +102,7 @@ form button:hover {
   left: 20px;
 }
 .todo-item {
-  padding: 0rem 0.5rem;
+  padding: 0.3rem 0.5rem;
 }
 
 .fa-trash,
@@ -138,7 +135,7 @@ select {
   border-radius: 10px;
 }
 select {
-  color: #16166f;
+  color: #e06704;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -146,7 +143,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #16166f;
+  background: #e06704;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -156,5 +153,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #16166f;
+  color: #e06704;
 }
