@@ -2,7 +2,11 @@
   src: url(../font/Poppins/Poppins-Regular.ttf);
   font-family: Poppins-Black;
 }
-
+::placeholder,
+::-moz-placeholder,
+::-webkit-input-placeholder {
+  font-size: 1rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +43,7 @@ form input {
   width: 60%;
 }
 form button {
-  color: #e06704;
+  color: #f1b04f;
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -47,7 +51,7 @@ form button {
   border-bottom-right-radius: 10px;
 }
 form button:hover {
-  background: #e06704;
+  background: #f1b04f;
   color: rgb(245, 241, 8);
 }
 
@@ -94,7 +98,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: #e06704;
+  background: #f1b04f;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
@@ -135,7 +139,7 @@ select {
   border-radius: 10px;
 }
 select {
-  color: #e06704;
+  color: #f1b04f;
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
@@ -143,7 +147,7 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #e06704;
+  background: #f1b04f;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -153,5 +157,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #e06704;
+  color: #f1b04f;
 }
