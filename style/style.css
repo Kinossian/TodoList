@@ -2,7 +2,9 @@
   src: url(../font/Poppins/Poppins-Regular.ttf);
   font-family: Poppins-Black;
 }
-
+::placeholder {
+  color: rgba(0, 0, 0, 0.678);
+}
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +44,7 @@ form input {
 }
 
 form button {
-  color: #ffd000;
+  color: #ff4f98;
   background: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -53,8 +55,8 @@ form button {
   line-height: 33px;
 }
 form button:hover {
-  background: #ffd000;
-  color: rgb(245, 241, 8);
+  background: #ff4f98;
+  color: white;
 }
 
 .todo-container {
@@ -100,7 +102,7 @@ form button:hover {
 }
 
 .complete-btn {
-  background: #ffd000;
+  background: #ff4f98;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
@@ -149,7 +151,8 @@ select {
 .select::after {
   content: "\25BC";
   position: absolute;
-  background: #ffd000;
+  background: #ff4f98;
+  color: white;
   top: 0;
   right: 0;
   font-size: 0.8rem;
@@ -160,5 +163,5 @@ select {
 
 .select:hover::after {
   background: white;
-  color: #ffd000;
+  color: #ff4f98;
 }
