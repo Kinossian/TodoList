@@ -2,27 +2,7 @@
   src: url(../font/Poppins/Poppins-Regular.ttf);
   font-family: Poppins-Black;
 }
-/* ::placeholder,
-::-moz-placeholder,
-::-webkit-input-placeholder {
-  font-size: 1rem;
-} */
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  font-size: 1rem;
-}
-::-moz-placeholder {
-  /* Firefox 19+ */
-  font-size: 1rem;
-}
-:-ms-input-placeholder {
-  /* IE 10+ */
-  font-size: 1rem;
-}
-:-moz-placeholder {
-  /* Firefox 18- */
-  font-size: 1rem;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +30,8 @@ form {
 form input,
 form button {
   padding: 0.5rem;
-  font-size: 2rem;
+  font-size: 1rem;
+  height: 3rem;
   border: none;
   background: white;
 }
@@ -67,6 +48,9 @@ form button {
   transition: all 0.3s ease;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-size: 2rem;
+  vertical-align: middle;
+  line-height: 33px;
 }
 form button:hover {
   background: #ffd000;
