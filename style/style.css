@@ -2,6 +2,10 @@
   src: url(../font/Poppins/Poppins-Regular.ttf);
   font-family: Poppins-Black;
 }
+::placeholder {
+  color: rgb(77, 77, 80);
+  font-size: 0.5em;
+}
 
 * {
   margin: 0;
